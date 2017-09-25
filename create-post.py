@@ -11,3 +11,4 @@ def create_post():
     req = request.Request(url, data=data)
     resp = request.urlopen(req)
     print(resp.__dict__)
+create_post()
